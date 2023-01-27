@@ -19,7 +19,7 @@
                         <td class="border border-slate-600 px-6 py-2">{{$employee->name}}</td>
                         <td class="border border-slate-600 px-6 py-2">{{$employee->address}}</td>
                         <td class="border border-slate-600 px-6 py-2">
-                            <a href="#" class="text-blue-500">Chi tiết</a>
+                            <a href="/employees/{{$employee->id}}" class="text-blue-500">Chi tiết</a>
                         </td>
                     </tr>
                 @endforeach

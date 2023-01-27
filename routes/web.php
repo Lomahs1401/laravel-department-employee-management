@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Controllers\EmployeeController;
 use App\Models\Employee;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\DepartmentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,4 +37,7 @@ Route::get('/employees', [EmployeeController::class, 'index']);
 
 // Single employee
 
+Route::get('/employees/{employee}', [EmployeeController::class, 'show']);
 
+// Departments routes
+Route::get('/departments', [DepartmentController::class, 'index']);

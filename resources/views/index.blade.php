@@ -34,7 +34,7 @@
                 <h1 class="text-4xl text-center my-4">Quản lý phòng ban</h1>
                 <div class="flex flex-col items-center justify-between space-y-2">
                     <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Xem danh sách phòng ban</a>
+                        <a href="/departments">Xem danh sách phòng ban</a>
                     </button>
                     <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
                         <a href="#">Thêm mới phòng ban</a>

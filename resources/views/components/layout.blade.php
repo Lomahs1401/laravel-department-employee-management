@@ -25,7 +25,7 @@
   </script>
 </head>
 
-<body>
+<body class="mb-36">
     <nav class="flex bg-blue-500 justify-between items-center mb-4 px-4 py-2">
         <a href="/">
             <img class="w-24 logo" src="{{asset('img/logo.jpg')}}" alt="Logo" />
@@ -66,7 +66,7 @@
         {{$slot}}
     </main>
 
-    <footer class="w-full flex items-center justify-center font-bold bg-blue-500 text-white h-24 m-auto opacity-90 mt-4">
+    <footer class="fixed bottom-0 left-0 w-full flex items-center bg-blue-500 justify-start font-bold text-white h-24 mt-24 opacity-90 md:justify-center">
       <p class="ml-2 text-xl">Copyright &copy; 2023, All Rights reserved</p>
     </footer>
 </body>
