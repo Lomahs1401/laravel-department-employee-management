@@ -14,7 +14,7 @@
                 <h1 class="text-4xl text-center my-4">Quản lý nhân sự</h1>
                 <div class="flex flex-col items-center justify-between space-y-2">
                     <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Xem danh sách nhân viên</a>
+                        <a href="/employees">Xem danh sách nhân viên</a>
                     </button>
                     <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
                         <a href="#">Thêm mới nhân viên</a>

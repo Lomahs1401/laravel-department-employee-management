@@ -25,7 +25,7 @@
   </script>
 </head>
 
-<body class="mb-8">
+<body>
     <nav class="flex bg-blue-500 justify-between items-center mb-4 px-4 py-2">
         <a href="/">
             <img class="w-24 logo" src="{{asset('img/logo.jpg')}}" alt="Logo" />
@@ -66,10 +66,9 @@
         {{$slot}}
     </main>
 
-    <footer class="fixed bottom-0 left-0 w-full flex items-center justify-start font-bold bg-blue-500 text-white h-24 mt-4 opacity-90 md:justify-center">
+    <footer class="w-full flex items-center justify-center font-bold bg-blue-500 text-white h-24 m-auto opacity-90 mt-4">
       <p class="ml-2 text-xl">Copyright &copy; 2023, All Rights reserved</p>
-      {{-- <a href="/listings/create" class="absolute top-1/3 right-10 bg-black text-white py-2 px-5">Post Job</a> --}}
-  </footer>
+    </footer>
 </body>
 
 </html>
