@@ -17,19 +17,19 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        \App\Models\User::factory(10)->create();
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
-
-        $department = Department::factory(10)->create();
-
-        $employee = Employee::factory(10)->create([
-            'department_id' => $department->id
+        \App\Models\User::factory()->create([
+            'name' => 'Test User',
+            'email' => 'test@example.com',
         ]);
 
-        
+        $departments = Department::factory(10)->create();
+
+        foreach($departments as $department) {
+            Employee::factory(3)->create([
+                'department_id' => $department->id
+            ]);
+        }
     }
 }

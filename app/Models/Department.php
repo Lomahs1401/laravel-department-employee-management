@@ -11,4 +11,9 @@ class Department extends Model
 
     protected $fillable = ['name', 'description'];
 
+    // Relationship with employees
+    public function employees() {
+        return $this->hasMany(Employee::class, 'department_id');
+    }
+
 }
