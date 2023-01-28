@@ -1,6 +1,5 @@
 <?php
 
-use App\Models\Employee;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\DepartmentController;
@@ -36,12 +35,18 @@ Route::get('/', function () {
 // Show all employees
 Route::get('/employees', [EmployeeController::class, 'index']);
 
-// Single employee
+// Show create employee form
+Route::get('/employees/create', [EmployeeController::class, 'create']);
 
+// Single employee
 Route::get('/employees/{employee}', [EmployeeController::class, 'show']);
+
 
 // Departments routes
 Route::get('/departments', [DepartmentController::class, 'index']);
+
+// Show create department form
+Route::get('/departments/create', [DepartmentController::class, 'create']);
 
 // Single department
 Route::get('/departments/{department}', [DepartmentController::class, 'show']);
@@ -51,3 +56,6 @@ Route::get('/login', [UserController::class, 'login']);
 
 // Register routes
 Route::get('/register', [UserController::class, 'create']);
+
+// Login user
+Route::post('/users/authenticate', [UserController::class, 'authenticate']);

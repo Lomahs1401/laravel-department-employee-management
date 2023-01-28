@@ -35,4 +35,9 @@ class DepartmentController extends Controller
             abort('404');
         }
     }
+
+    // Show create department form
+    public function create() {
+        return view('departments.create');
+    }
 }

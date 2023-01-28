@@ -26,4 +26,9 @@ class EmployeeController extends Controller
             abort('404');
         }
     }
+
+    // Show Create Employee Form
+    public function create() {
+        return view('employees.create');
+    }
 }

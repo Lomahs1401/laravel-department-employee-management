@@ -16,7 +16,7 @@
                     <a href="/employees" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
                         Xem danh sách nhân viên
                     </a>
-                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                    <a href="/employees/create" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
                         Thêm mới nhân viên
                     </a>
                     <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
@@ -36,7 +36,7 @@
                     <a href="/departments" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
                         Xem danh sách phòng ban
                     </a>
-                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                    <a href="/departments/create" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
                         Thêm mới phòng ban
                     </a>
                     <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
