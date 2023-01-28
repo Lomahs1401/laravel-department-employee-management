@@ -4,6 +4,7 @@ use App\Models\Employee;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,3 +45,9 @@ Route::get('/departments', [DepartmentController::class, 'index']);
 
 // Single department
 Route::get('/departments/{department}', [DepartmentController::class, 'show']);
+
+// Login routes
+Route::get('/login', [UserController::class, 'login']);
+
+// Register routes
+Route::get('/register', [UserController::class, 'create']);
