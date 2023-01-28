@@ -13,41 +13,41 @@
             <div id="employee-container">
                 <h1 class="text-4xl text-center my-4">Quản lý nhân sự</h1>
                 <div class="flex flex-col items-center justify-between space-y-2">
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="/employees">Xem danh sách nhân viên</a>
-                    </button>
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Thêm mới nhân viên</a>
-                    </button>
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Cập nhật nhân viên</a>
-                    </button>
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Xóa sách nhân viên</a>
-                    </button>
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Tìm kiếm nhân viên</a>
-                    </button>
+                    <a href="/employees" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Xem danh sách nhân viên
+                    </a>
+                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Thêm mới nhân viên
+                    </a>
+                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Cập nhật nhân viên
+                    </a>
+                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Xóa sách nhân viên
+                    </a>
+                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Tìm kiếm nhân viên
+                    </a>
                 </div>
             </div>
             <div id="department-container">
                 <h1 class="text-4xl text-center my-4">Quản lý phòng ban</h1>
                 <div class="flex flex-col items-center justify-between space-y-2">
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="/departments">Xem danh sách phòng ban</a>
-                    </button>
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Thêm mới phòng ban</a>
-                    </button>
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Cập nhật phòng ban</a>
-                    </button>
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Xóa sách phòng ban</a>
-                    </button>
-                    <button class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
-                        <a href="#">Tìm kiếm phòng ban</a>
-                    </button>
+                    <a href="/departments" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Xem danh sách phòng ban
+                    </a>
+                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Thêm mới phòng ban
+                    </a>
+                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Cập nhật phòng ban
+                    </a>
+                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Xóa sách phòng ban
+                    </a>
+                    <a href="#" class="p-3 px-6 pt-2 bg-blue-500 text-white rounded-full baseline hover:bg-blue-300">
+                        Tìm kiếm phòng ban
+                    </a>
                 </div>
             </div>
         </div>

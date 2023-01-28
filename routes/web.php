@@ -41,3 +41,6 @@ Route::get('/employees/{employee}', [EmployeeController::class, 'show']);
 
 // Departments routes
 Route::get('/departments', [DepartmentController::class, 'index']);
+
+// Single department
+Route::get('/departments/{department}', [DepartmentController::class, 'show']);
